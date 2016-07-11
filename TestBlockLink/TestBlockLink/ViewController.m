@@ -8,15 +8,22 @@
 
 #import "ViewController.h"
 #import "TestBlockLeakVC.h"
+#import "MultipleTapLabel.h"
 @interface ViewController ()
-
+@property (nonatomic, copy) NSString *name;
 @end
 
 @implementation ViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view, typically from a nib.
+    NSString *name = @"Tom";
+    NSLog(@"name:%p", name);
+    self.name = [name copy];
+    NSLog(@"self.name:%p", self.name);
+    MultipleTapLabel *label = [MultipleTapLabel new];
+    label.frame = CGRectMake(0, 100, self.view.bounds.size.width, 30);
+    [self.view addSubview:label];
 }
 
 - (void)didReceiveMemoryWarning {

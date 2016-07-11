@@ -18,6 +18,7 @@
 		4D4786871D332BC400495FC4 /* TestBlockLeakVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D4786861D332BC400495FC4 /* TestBlockLeakVC.m */; };
 		4D47868A1D333E7900495FC4 /* BlueView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D4786891D333E7900495FC4 /* BlueView.m */; };
 		4D47868D1D3344A500495FC4 /* TestBlock.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D47868C1D3344A500495FC4 /* TestBlock.m */; };
+		4D4786901D338C3800495FC4 /* MultipleTapLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D47868F1D338C3800495FC4 /* MultipleTapLabel.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -60,6 +61,8 @@
 		4D4786891D333E7900495FC4 /* BlueView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BlueView.m; sourceTree = "<group>"; };
 		4D47868B1D3344A500495FC4 /* TestBlock.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestBlock.h; sourceTree = "<group>"; };
 		4D47868C1D3344A500495FC4 /* TestBlock.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestBlock.m; sourceTree = "<group>"; };
+		4D47868E1D338C3800495FC4 /* MultipleTapLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MultipleTapLabel.h; sourceTree = "<group>"; };
+		4D47868F1D338C3800495FC4 /* MultipleTapLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MultipleTapLabel.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -114,6 +117,8 @@
 				4D4786561D332B2B00495FC4 /* AppDelegate.m */,
 				4D4786581D332B2B00495FC4 /* ViewController.h */,
 				4D4786591D332B2B00495FC4 /* ViewController.m */,
+				4D47868E1D338C3800495FC4 /* MultipleTapLabel.h */,
+				4D47868F1D338C3800495FC4 /* MultipleTapLabel.m */,
 				4D4786851D332BC400495FC4 /* TestBlockLeakVC.h */,
 				4D4786861D332BC400495FC4 /* TestBlockLeakVC.m */,
 				4D47868B1D3344A500495FC4 /* TestBlock.h */,
@@ -287,6 +292,7 @@
 			files = (
 				4D47865A1D332B2B00495FC4 /* ViewController.m in Sources */,
 				4D4786571D332B2B00495FC4 /* AppDelegate.m in Sources */,
+				4D4786901D338C3800495FC4 /* MultipleTapLabel.m in Sources */,
 				4D47868A1D333E7900495FC4 /* BlueView.m in Sources */,
 				4D47868D1D3344A500495FC4 /* TestBlock.m in Sources */,
 				4D4786871D332BC400495FC4 /* TestBlockLeakVC.m in Sources */,
@@ -516,6 +522,7 @@
 				4D47867E1D332B2B00495FC4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		4D47867F1D332B2B00495FC4 /* Build configuration list for PBXNativeTarget "TestBlockLinkTests" */ = {
 			isa = XCConfigurationList;
@@ -524,6 +531,7 @@
 				4D4786811D332B2B00495FC4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		4D4786821D332B2B00495FC4 /* Build configuration list for PBXNativeTarget "TestBlockLinkUITests" */ = {
 			isa = XCConfigurationList;
@@ -532,6 +540,7 @@
 				4D4786841D332B2B00495FC4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

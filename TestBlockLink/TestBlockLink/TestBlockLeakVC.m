@@ -13,12 +13,15 @@
 @property (nonatomic, strong) UIView *redView;
 @property (nonatomic, strong) UIView *red2View;
 @property (nonatomic, copy) void(^TestBlock)();
+
 @end
 
 @implementation TestBlockLeakVC
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    
+
     self.view.backgroundColor = [UIColor lightGrayColor];
     UIView *redView = [[UIView alloc] initWithFrame:CGRectMake(50, 70, 100, 100)];
     redView.backgroundColor = [UIColor redColor];
